@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(dpu C ASM)
+
+string(REPLACE  "|" ";" DPU_INCLUDE_DIRS    "${DPU_INCLUDE_DIRS}")
+string(REPLACE  "|" ";" DPU_SRC_LIST    "${DPU_SRC_LIST}")
+
+INCLUDE_DIRECTORIES( ${DPU_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES(${COMMON_INCLUDE_DIRS})
+
+add_executable(${NAME} ${DPU_SRC_LIST})
+set(CMAKE_C_FLAGS "-O2  -fstack-size-section -fshort-enums -DNR_TASKLETS=${NR_TASKLETS} -DSTACK_SIZE_DEFAULT=${DPU_STACK_SIZE_BYTE} ${DPU_ARGN}")
+target_compile_definitions(${NAME} PUBLIC -DDPU_ENV)
+target_compile_definitions(${NAME} PUBLIC -DHOSTDPU_XFER_BUFFER_SIZE_LOG2_BYTE=${HOSTDPU_XFER_BUFFER_SIZE_LOG2_BYTE})
