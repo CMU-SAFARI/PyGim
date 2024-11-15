@@ -68,13 +68,13 @@ NOTE: You need to run following command on the machine with UPMEM hardware and r
 - Run the SPMM test code:
   ```Bash
   cd path/to/source/PyGim
-  mkdir ../data
-  python3 ./spmm_test.py --datadir=../data --dataset=Reddit
+  mkdir ./data
+  python3 ./spmm_test.py --datadir=./data --dataset=Reddit
   ```
 - Run end-to-end inference:
   ```Bash
   cd path/to/source/PyGim
-  python3 ./inference.py  --datadir=../data --dataset=Reddit
+  python3 ./inference.py  --datadir=./data --dataset=Reddit
   ```
 
 ## Usage
