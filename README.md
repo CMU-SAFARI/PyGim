@@ -1,4 +1,4 @@
-# PyGim : An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures
+# PyGim: An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures
 
 This repository provides all the necessary files and instructions to reproduce the results of our [SIGMETRICS '25 paper](https://arxiv.org/abs/2402.16731).
 
