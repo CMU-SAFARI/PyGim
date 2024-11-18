@@ -2,7 +2,7 @@
 
 This repository provides all the necessary files and instructions to reproduce the results of our [SIGMETRICS '25 paper](https://arxiv.org/abs/2402.16731).
 
-> Christina Giannoula, Peiming Yang, Ivan Fernandez Vega, Jiacheng Yang, Sankeerth Durvasula, Yu Xin Li, Mohammad Sadrosadati, Juan Gomez Luna, Onur Mutlu, Gennady Pekhimenko, "PyGim: An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures", SIGMETRICS'25. [Paper PDF](https://arxiv.org/abs/2402.16731.pdf)
+> Christina Giannoula, Peiming Yang, Ivan Fernandez, Jiacheng Yang, Sankeerth Durvasula, Yu Xin Li, Mohammad Sadrosadati, Juan Gomez Luna, Onur Mutlu, Gennady Pekhimenko, "PyGim: An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures", SIGMETRICS'25. [Paper PDF](https://arxiv.org/abs/2402.16731.pdf)
 
 [<i>PyGim</i>](https://arxiv.org/abs/2402.16731.pdf) is the first easy-to-use software framework to deploy Graph Neural Networks (GNNs) in real Processing-In-Memory (PIM) architectures. GNN execution involves both compute-intensive and memory-intensive kernels. PyGim integrates intelligent parallelization techniques for the memory-intensive kernels of GNNs tailored for real PIM systems, and provides an easy-to-use Python API for them. PyGim employs a cooperative GNN execution, in which the compute- and memory-intensive kernels are executed in processor-centric and memory-centric computing systems, respectively, to fully exploit the hardware capabilities. PyGim also integrates a lightweight autotuner that tunes the parallelization strategy of the memory-intensive kernel of GNNs based on the particular characteristics of the input graph, thus enabling high programming ease. 
 
@@ -11,7 +11,7 @@ This repository provides all the necessary files and instructions to reproduce t
 
 Please use the following citations to cite PyGim, if you find this repository useful:
 
-Christina Giannoula, Peiming Yang, Ivan Fernandez Vega, Jiacheng Yang, Sankeerth Durvasula, Yu Xin Li, Mohammad Sadrosadati, Juan Gomez Luna, Onur Mutlu, Gennady Pekhimenko, "[PyGim: An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures](https://arxiv.org/pdf/2402.16731.pdf)", arXiv:2402.16731 [cs.AR], 2024.
+Christina Giannoula, Peiming Yang, Ivan Fernandez, Jiacheng Yang, Sankeerth Durvasula, Yu Xin Li, Mohammad Sadrosadati, Juan Gomez Luna, Onur Mutlu, Gennady Pekhimenko, "[PyGim: An Efficient Graph Neural Network Library for Real Processing-In-Memory Architectures](https://arxiv.org/pdf/2402.16731.pdf)", arXiv:2402.16731 [cs.AR], 2024.
 
 
 Bibtex entries for citation:
