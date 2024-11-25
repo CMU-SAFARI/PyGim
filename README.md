@@ -114,4 +114,4 @@ NOTE: You need to run following command on the machine with UPMEM hardware and r
 
 ## Contact
 
-For any suggestions for improvement, any issues related to PyGim source code or for reporting bugs, please contact Christina Giannoula at christina.giann<at>gmail.com and Peiming Yang at peiming.yang<at>mail.utoronto.ca
+For any suggestions for improvement, any issues related to PyGim source code or for reporting bugs, please contact Christina Giannoula at christina.giann@gmail.com and Peiming Yang at peiming.yang@mail.utoronto.ca
